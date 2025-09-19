@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/d992f3f8ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Blogs</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="blogs.html" class="nav-link active">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <!-- //display flex -->
+            <input
+              type="text"
+              class="form-control me-1"
+              placeholder="Search..."
+            />
+            <button class="btn btn-warning">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-md-3 d-none d-md-block">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action"
+                ><i class="fa-solid fa-caret-right"></i>Category 1</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                ><i class="fa-solid fa-caret-right"></i>Category 2</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                ><i class="fa-solid fa-caret-right"></i>Category 3</a
+              >
+
+              <a href="#" class="list-group-item list-group-item-action"
+                ><i class="fa-solid fa-caret-right"></i>Category 4</a
+              >
+            </div>
+          </div>
+          <div class="col-md-9">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Category</a></li>
+                <li class="breadcrumb-item active">Blogs</li>
+              </ol>
+            </nav>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <img
+                    src="img/1.jpeg"
+                    class="img-fluid rounded-start w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blog Title 1</h5>
+                    <p class="card-text">
+                      This is a short description of Blog Title 1.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <img
+                    src="img/2.jpeg"
+                    class="img-fluid rounded-start w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blog Title 1</h5>
+                    <p class="card-text">
+                      This is a short description of Blog Title 1.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <img
+                    src="img/3.jpeg"
+                    class="img-fluid rounded-start w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blog Title 1</h5>
+                    <p class="card-text">
+                      This is a short description of Blog Title 1.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <img
+                    src="img/4.jpeg"
+                    class="img-fluid rounded-start w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blog Title 1</h5>
+                    <p class="card-text">
+                      This is a short description of Blog Title 1.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item">
+                  <a class="page-link disabled" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-5 bg-primary text-white">
+      <div class="container text-center">
+        <p class="lead mb-0">&copy; 2024 Awesome Blog | All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
